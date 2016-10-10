@@ -1,0 +1,32 @@
+body{
+	background-color: rgb(236, 238, 255);
+}
+ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		li {
+			float: left;
+			background-color: white;
+			border: 1px black;
+		}
+		li a{
+			display: block;
+			border-style: double;
+			padding: 10px;
+			width: 300px; 
+			text-decoration: none;
+			color: black;
+		}
+		li a:hover{
+			background-color: black;
+			color: white;
+		}
+		div{
+			float: right;
+			border: 10px red;
+		}
+		p{
+			color:red;
+		}

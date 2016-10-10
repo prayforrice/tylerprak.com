@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+		<title> tyler.prak.com </title>
+		
+		<meta name="author" content="Tyler Prak">
+		<meta name="keywords" content="HTML">
+		<meta name="description" content="tylerprak.com">
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<style type="text/css">
+			#id1{
+				color: white;
+			}
+			h2.white{
+				color: white;
+			}
+			a.link:link {
+			    color: green;
+			    background-color: transparent;
+			    text-decoration: none;
+			}
+			a.visited:visited {
+			    color: pink;
+			    background-color: transparent;
+			    text-decoration: none;
+			}
+			a.hover:hover {
+			    color: red;
+			    background-color: transparent;
+			    text-decoration: underline;
+			}
+			a.active:active {
+			    color: yellow;
+			    background-color: transparent;
+			    text-decoration: underline;
+			}
+			table, th, td {
+			    border: 1px solid black;
+			    border-collapse: collapse;
+			}
+			th, td {
+			    padding: 1px;
+			} 
+			th {
+			    text-align: left;
+			}
+			table {
+				border-spacing: 1px;
+			}
+			table#t01 {
+				width: 50%;
+    			background-color: grey;
+			}
+			table#t01 tr:nth-child(even) {
+			    background-color: white;
+			}
+			table#t01 tr:nth-child(odd) {
+			   background-color:grey;
+			}
+			table#t01 th {
+			    background-color: black;
+			    color: white;
+			}
+			ul#h02 li {
+			    display: inline;
+			}
+			ul#h01 {
+			    padding: 0;
+			    text-align: center;
+			}
+
+			ul#h01 li {
+			    display: inline;
+			}
+
+			ul#h01 li a {
+			    background-color: black;
+			    color: white;
+			    padding: 10px 20px;
+			    text-decoration: none;
+			    border-radius: 4px 4px 0 0;
+			}
+			ul#h01 li a:hover {
+			    background-color: white;
+			    color: black;
+
+			}
+			ul#h03 li{
+			    display: inline;
+
+			    background-color: black;
+			    color: white;
+			    padding: 10px 20px;
+			    text-decoration: none;
+			    border-radius: 4px 4px 0 0;				
+			}
+			ul#h03 li:hover{
+				background-color: white;
+			    color: black;
+			}
+			div.container {
+			    width: 100%;
+			    border: 1px solid gray;
+			}
+
+			header, footer {
+			    padding: 1em;
+			    color: white;
+			    background-color: black;
+			    clear: left;
+			    text-align: center;
+			}
+
+			nav {
+			    float: left;
+			    max-width: 160px;
+			    margin: 0;
+			    padding: 1em;
+			}
+
+			nav ul {
+			    list-style-type: none;
+			    padding: 0;
+			}
+			   
+			nav ul a {
+			    text-decoration: none;
+			}
+
+			article {
+			    margin-left: 170px;
+			    border-left: 1px solid gray;
+			    padding: 1em;
+			    overflow: hidden;
+			}
+		</style>
+	</head>
+	
+	<body>
+
+				<h1 style="font-size:60px;text-align:center"> Tyler Prak </h1>
+
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="HTMLprog.html">HTML PROGRESSION </a></li>
+			<li><a href="JSprog.html">JAVASCRIPT PROGRESSION</a></li>
+			<li><a href="CSSprog.html">CSS PROGRESSION</a></li>
+		</ul>
+		
+		
+		
+		<h1 style="font-size:300%"> THINGS I HAVE LEARNED(HTML) </h1> 
+		
+		 / = root folder <br>
+		 ./ = current folder <br>
+		 ../ = previous folder <br>
+		<hr>		
+
+		<h1>Paragraphs</h1> 
+		<p>Paragraph</p> <br>
+		Line <br> break <br> 
+		Thematic break <hr>
+		<pre>
+P
+r
+e
+		</pre>
+		<hr>
+
+		<!-- Only <h1> to <h6> -->
+		<h1>Headings</h1>
+		<h2>Heading</h2>
+		<h3>Heading</h3>
+		<h4>Heading</h4>
+		<h5>Heading</h5>
+		<h6>Heading</h6>
+
+		<!-- Use style="width: x;height: x; to prevent stylesheets from changing -->
+		<h1>Links and Images</h1>
+		<a href="http://www.w3schools.com/html/html_basic.asp">Link</a> <br>
+		<img src="Image not found" alt="Alt" width="200" height="150"">
+		<img src="MarthMelee.jpg" alt="alt" width="200" height="150"">
+		<img src="MarthWin.gif" width="200" height="150">
+		<a href="index.html"><img src="ClickMe.jpg" width="200" height="150"></a>
+		<p> <img src="MarthWin.gif" float:left width="200" height="150" "> A paragraph with a floating image.  <img src="MarthWin.gif" float:right width="200" height="150" "> </p>
+		<p>Image Mapping</p>
+		<img src="MarthMelee.jpg" usemap="#MarthMelee" width="200" height="150">
+
+		<map name="MarthMelee">
+		  <area shape="rect" coords="0,0,100,100" href="MarthWin.gif">
+		  <area shape="circle" coords="200,200,100" href="MarthWin.gif">
+
+		</map>
+
+		<hr>
+
+		<h1>Styles</h1>
+		<p style="color:red;">Colors"</p>
+		<p style="text-align:left;">Left</p>
+		<p style="text-align:right;">Right</p>
+		<p style="text-align:center;">Center</p>
+		<p style="font-family:Courier">Change font(Courier)</p>
+		<p style="font-size:25px">Font size(25px)</p>
+		<p style="font-size:100%">Font size(100%)</p>
+		<!-- Background color written in <body> -->
+		<p>Background color(Light Blue)</p>
+		<hr>
+
+		<!-- <strong> and <em> aren't really different from <b> and <i> -->
+		<h1>Special Types of Text</h1>
+		<p> <b>Bold</b> </p> 
+		<p> <strong>Strong</strong> </p> 
+		<p> <i>Italic</i> </p> 
+		<p> <em>Emphasize</em> </p> 
+		<p> <small>Small</small> </p>
+		<p> <mark>Mark</mark> </p>
+		<p> <del>Delete</del> </p>
+		+<p> <ins>Insert</ins></p>
+		<p> Sub<sub>script</sub> </p>
+		<p> Super<sup>script</sup> </p>
+		<hr>
+
+		
+		<!-- <address> and <cite> italics everything 
+		<bdo dir="rtl"> writes text backwards 
+		<address> doesn't preserve linebreaks -->
+		<h1>Quotations and Citations</h1>
+		<p> <q>Double Quote</q></p>
+		<p> <blockquote> Block <br> Quote</blockquote></p>
+		<p> <abbr title="Abbreviation"> Abbrv. </abbr></p>
+		<p> <address>
+		Tyler Prak <br>
+		tylerprak.com <br>
+		USA <br>
+		</address> </p>
+		<p> <cite>Cite</cite> </p>
+		<p> <bdo dir="rtl">Bi-directional Override</bdo> </p>
+		<hr>
+
+		<!-- Changes the text for displaying examples of computer code
+		<code> doesn't preserve white space/linebreaks 
+		<var> can be used for math expressions/variables in programming context-->
+		<h1> Computer Code Formatting </h1>
+		<p> <kbd>Keyboard Input</kbd> </p>
+		<p> <samp>Sample Output</samp> </p>
+		<p> <code>Code</code> </p>
+		<p> <var>Variable</var> </p>
+		<hr>
+
+		<!-- Colors have preset RGB
+		Black,White and Gray have equal values of RGB -->
+		<h1>Colors</h1>
+		<p style="background-color:rgb(255,0,0)"> Background Color set by using RGB(255,0,0)</p>
+		<p style="background-color:blue"> Background Color set by using blue</p>
+		<p style="background-color:#FF0000"> Background Color set by using #FF0000</p>
+		<p style="background-color:#0000FF;color:white"> Text Color set by using White</p>
+		<hr>
+
+		<!-- Inline styling styles one unique HTML element 
+		Internal styling styles a whole HTML element/page--> 
+		<h1>Styling HTML with CSS</h1>
+		<h2 style="color:white">Inline Styling</h2>
+		<blockquote> <code> <pre>
+&ltp style="color:white"&gtInline Styling&lt/p&gt
+		</pre> </code> </blockquote>
+
+		<h2>Internal Styling</h2>
+		<blockquote> <code> <pre>
+&lthead&gt
+&ltstyle&gt
+body {background-color:lightgrey;}
+h1   {color:blue;
+	 font-size:10px;
+	 font-family:courier}
+&lt/style&gt
+&lt/head&gt
+		</pre> </code> </blockquote>
+		
+		<h2>External Styling</h2>
+		<blockquote> <code> <pre>
+&lthead&gt
+ &ltlink rel="stylesheet" href="styles.css"&gt
+&lt/head&gt
+		</pre> </code> </blockquote>
+
+		<h2>CSS Box</h2>
+		<blockquote> <code> <pre>
+&ltstyle type="text/css"&gt
+p{
+border: 1px solid black;
+padding: 10px;
+margin: 30px;
+}
+&lt/style&gt
+		</pre> </code> </blockquote>
+
+<h2 id="id1">ID based CSS Styling</h2>
+<blockquote> <code> <pre>
+&lthead&gt
+&ltstyle type="text/css"&gt
+#id1 {
+color: white;
+}
+&lt/style&gt
+&lt/head&gt
+--------------------------------------
+&lth2 id="id1"&gtID based CSS Styling&lt/h2&gt
+</pre></code> </blockquote>
+
+<h2 class="white">Class based CSS Styling</h2>
+<blockquote> <code> <pre>
+&lthead&gt
+&ltstyle type="text/css"&gt
+h2.white {
+color: white;
+}
+&lt/style&gt
+&lt/head&gt
+--------------------------------------
+&lth2 class="white"&gtClass based CSS Styling&lt/h2&gt
+</pre></code> </blockquote>
+<hr>
+
+<h1>Hyperlinks</h1>
+<a href="index.html">Home</a>
+
+<!-- Instead of all cases of links being changed, classes are implmented in CSS header code in order to change for one specific case -->
+<h2>Changing Appearance of Text</h2>
+<h3><a class="link" href="./Links/Link.html">Link</a></h3>
+<blockquote> <code> <pre>
+&lthead&gt
+&ltstyle&gt
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
++&lt/style&gt
+&lt/head&gt
+</pre></code> </blockquote>
+
+<h3><a class="visited" href="./Links/Visited.html">Visited</a></h3>
+<blockquote> <code> <pre> 
+&lthead&gt
+&ltstyle&gt
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+&lt/style&gt
+&lt/head&gt
+</pre></code> </blockquote>
+
+
+<h3><a class="hover" href="./Links/Hover.html">Hover</a></h3>
+<blockquote> <code> <pre> 
+&lthead&gt
+&ltstyle&gt
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+&lt/style&gt
+&lt/head&gt
+</pre></code> </blockquote>
+
+<!-- Active Hyperlink is when you click and hold -->
+<h3><a class="active" href="./Links/Active.html">Active</a></h3>
+<blockquote> <code> <pre> 
+&lthead&gt
+&ltstyle&gt`
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+&lt/style&gt
+&lt/head&gt
+</pre></code> </blockquote>
+
+<!-- <th></th> is also a divider -->
+<h2>Target Attributed Links</h2>
+<p> <a href="index.html" target="_blank">New tab</a> </p>
+<p> <a href="index.html" target="_self">New tab</a> </p>
+<p> <a href="index.html" target="_parent">New tab</a> </p>
+<p> <a href="index.html" target="_top">New tab</a> </p>
+<h1>FIX THIS SHIT</h1> <hr>
+
+<!-- <th></th> adds a small amount of space for things like headers
+All tables are edited with CSS code
+Internal styling>Inline styling for borders
+Border collapse makes border-spacing not work
+ -->
+<h1>HTML Tables</h1>
+	<table width="100%">
+	<caption> Fucking Table</caption>
+		<tr>
+			<th>Table </th>
+			<th colspan="2"> Header </th>
+		</tr>
+		<th></th>
+		<tr>
+			<td> Table </td>
+			<td> Row </td>
+			<td> 1 </td>
+		</tr>
+		<tr>
+			<td> Table </td>
+			<td> Row </td>
+			<td> 2 </td>
+		</tr>
+		
+	</table>
+	<br>
+	<table id="t01">
+		<tr>
+			<th>Table </th>
+			<th colspan="2"> Header </th>
+		</tr>
+		<th></th>
+		<tr>
+			<td> Table </td>
+			<td> Row </td>
+			<td> 1 </td>
+		</tr>
+		<tr>
+			<td> Table </td>
+			<td> Row </td>
+			<td> 2 </td>
+		</tr>
+		<tr>
+			<td> Table </td>
+			<td> Row </td>
+			<td> 3 </td>
+		</tr>
+		<tr>
+			<td> Table </td>
+			<td> Row </td>
+			<td> 4 </td>
+		</tr>
+	</table>
+	<hr>
+
+	<h1>Lists</h1>
+
+	<h2>Unordered List</h2>
+	<ul>
+		<li> Bullet(Default)</li>
+		<li style="list-style-type:circle" >Circle</li>
+		<li style="list-style-type:square">Square</li>
+		<li style="list-style-type:none">None</li>
+	</ul>
+
+	<h2>Ordered List</h2>
+	<ol>
+	  <li type="1">Numbers(Default)</li>
+	  <li type="A">Uppercase Letters</li>
+	  <li type="a">Lowercase Letters</li>
+	  <li type="I">Uppercase Roman Numberal</li>
+	  <li type="i">Lowercase Roman Numberal</li>
+	</ol>
+
+	<h2>Description List</h2>
+	<dl>
+		<dt>Item</dt>	
+		<dd>-Description</dd>
+	</dl>
+
+	<h2>Nested List</h2>
+	<ul>
+		<li>Numbers</li>
+		<ul>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+		</ul>
+		<li>End</li>
+	</ul>
+
+	<h2>Horizontal List</h2>
+		<ul id="h03">
+			<li> Horizontal</a></li>
+			<li> List</li>
+		</ul>
+
+
+<h1>Forms(WIP)</h1>
+
+	<form action="action_page.php">
+	  <fieldset>
+	  <legend>Caption</legend>
+	  <input type="text" name="Text"> <br>
+	  <input type="password" name="Bullet"> <br>
+	  <input type="submit" value="Submit">
+	  </fieldset>
+	</form>
+	<hr>
+
+	<h1>Blocks</h1>
+
+	<h2>/div</h2>
+	<div style="background-color:black;color:white;padding:20px">
+		Example
+	</div>
+
+	<h2>/span</h2>
+	<p>s<span style="color:red">pan</span></p>
+	<br><br><br>
+	<hr>
+
+	<h1>IFRAMES</h1>
+	<h2>Normal</h2>
+	<iframe src="index.html" height="200" width="300" ></iframe>
+
+	<h2>Border</h2>
+	<iframe src="index.html" height="200" width="300" style="border:2px solid black;"></iframe>
+
+	<h2>No Border</h2>
+	<iframe src="index.html" height="200" width="300" style="border:none;"></iframe>
+
+	<h2>IFrame targeted Links</h2>
+	<p>Opens a link inside of the IFrame</p>
+	<iframe src="index.html" height="200" width="300" name="iframe_link"></iframe>
+	<p><a href="HTMLprog.html" target="iframe_link">HTML PROG</a></p>
+
+
+<!-- <noscript>Sorry, your browser does not support JavaScript!</noscript> -->
+<h1>HTML JavaScript(WIP)</h1>
+
+	<h2>Various Buttons</h2>
+	<button type="button"
+	onclick="document.getElementById('demo1').innerHTML = Date()">
+	Click me to display Date and Time.</button>
+	<p id="demo1"></p>
+
+
+	<p id="demo2">JavaScript can change the style of an HTML element.</p>
+	<script>
+	function myFunction() {
+	    document.getElementById("demo2").style.fontSize = "25px";
+	    document.getElementById("demo2").style.color = "red";
+	}
+	</script>
+	<button type="button" onclick="myFunction()">Click Me!</button>
+
+	<p id="demo"></p>
+	<script>
+	document.getElementById("demo").innerHTML = "Hello JavaScript!";
+	</script>
+
+	<p>JavaScript can change the content of an HTML element:</p>
+	<button type="button" onclick="myFunction()">Click Me!</button>
+	<p id="demo3">This is a demonstration.</p>
+	<script>
+	function myFunction() {
+	    document.getElementById("demo3").innerHTML = "Hello JavaScript!";
+	}
+	</script>
+
+	<script>
+	function change(sw) {
+	    var pic;
+	    if (sw == 0) {
+	        pic = "Fox.jpg"
+	    } else {
+	        pic = "Falco.jpg"
+	    }
+	    document.getElementById('myImage').src = pic;
+	}
+	</script>
+	<img id="myImage" src="Fox.jpg" width="100" height="180">
+	<p>
+	<button type="button" onclick="change(1)">Falco</button>
+	<button type="button" onclick="change(0)">Fox</button>
+	</p>
+
+<h1>HTML Layouts(WIP)</h1>
+	<h2>CSS Float</h2>
+
+	<div class="container">
+		<header>
+		   <h1>Header - Defines a header for a document or a section</h1>
+		</header>
+		<nav>
+		 Nav - Defines a container for navigation links
+		</nav>
+		<article>
+		   Article - Defines an independent self-contained article
+		</article>
+		<footer>Footer - Defines a footer for a document or a section</footer>
+	</div>
+
+	<h2>CSS Flexbox</h2>
+
+<h1>Entities(WIP)</h1>
+	<p> &amplt = &lt </p>
+	&ampgt = &gt 
+	&ampemsp; = 4 spaces
+	&amp; = &amp;
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
